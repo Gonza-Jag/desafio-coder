@@ -50,6 +50,11 @@ header{
     width: 75%;
     height: auto;
 }
+
+.header--logo img:hover {
+    transform: scale(1.2)
+}
+
 .header--navbar--menu{
     display: flex;
     justify-content: space-between;
@@ -88,6 +93,22 @@ header{
     text-shadow: 0.5rem 0.5rem 0.5rem black;
     position: relative;
     top: 25rem;
+}
+.section--principal h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 .card{
     color: black;
