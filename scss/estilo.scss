@@ -79,7 +79,7 @@ header{
     flex-wrap: wrap;
 }
 .main--container .section--principal {
-    background-image: url(./img/fondo.jpg);
+    background-image: url(/img/fondo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,6 +115,7 @@ header{
     border-radius: 1rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
@@ -122,6 +123,7 @@ header{
     height: auto;
     margin: 4rem 0;
     background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
 
 }
 .card--title{
@@ -178,4 +180,5 @@ header{
     width: 100%;
     height: auto;
 }
+
 
